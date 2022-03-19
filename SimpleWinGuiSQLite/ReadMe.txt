@@ -5,3 +5,4 @@ Compiler Settings GNU GCC Compiler
 C++ 11
 1999 ISO C C99
 Linker Settings WS2_32.dll
+Please use project as is no any guaranty or responsibility. 
