@@ -1,0 +1,33 @@
+#include "resource.h"
+
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&DATABASE"
+    BEGIN
+        MENUITEM "C&ONFIGURE DB", ID_CONFIGURE_DB
+        MENUITEM "&ConnectDb", ID_CONNECT_DB
+        MENUITEM "&QERRYRDb", ID_QUERRY_DB
+        MENUITEM "&CLOSEDb", ID_CLOSE_DB
+        MENUITEM "&ADDMATERIAL", ID_ADDMATERIAL_DB
+        MENUITEM "ADD SUPPLIER", ID_ADDSUPPLIER_DB
+        MENUITEM "ADD CUSTOMER", ID_ADDCUSTOMER_DB
+        MENUITEM "ADD EMPLOYEE", ID_ADDEMPLOYEE_DB
+        MENUITEM "LEARN TABLES", ID_GIVETABLES_DB
+        MENUITEM "LEARN COLUNS", ID_GIVECOLUMNS_DB
+        MENUITEM "G&o somewhere else", 0, GRAYED
+    END
+
+    POPUP "Simple Stuff"
+    BEGIN
+        MENUITEM "Delete DB Report View", ID_DEL_DB_REPVIEWTEMS_LV
+        MENUITEM "Delete Operation Messages", ID_DEL_MSG_LOG_ITEMS_LV
+        MENUITEM "Simple &Stuf somehere else", 0, GRAYED
+    END
+END
+
+IDI_MYICON ICON "Slideshow.ico"

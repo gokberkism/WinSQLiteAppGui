@@ -1,0 +1,245 @@
+# depslib dependency file v1.0
+1646607989 source:d:\cbsampleprjs\prgcpp\testwinguiapp1\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<commctrl.h>
+	"resource.h"
+
+1646347200 d:\cbsampleprjs\prgcpp\testwinguiapp1\resource.h
+
+1646661797 source:d:\cbsampleprjs\prgcpp\testwinguiapp2\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<commctrl.h>
+	"resource.h"
+
+1646347200 d:\cbsampleprjs\prgcpp\testwinguiapp2\resource.h
+
+1646990693 source:d:\cbsampleprjs\prgcpp\testwinguiapp3\main.cpp
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<commctrl.h>
+	"resource.h"
+	"main.h"
+	"sqlite3.h"
+
+1646900809 d:\cbsampleprjs\prgcpp\testwinguiapp3\resource.h
+
+1646766612 source:d:\cbsampleprjs\prgcpp\testwinguiapp3\resource.rc
+	"resource.h"
+
+1646922503 d:\cbsampleprjs\prgcpp\testwinguiapp3\main.h
+	<windows.h>
+	"sqlite3.h"
+
+1645571904 source:c:\sqlite\sqlite-amalgamation-3380000\sqlite-amalgamation-3380000\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
+
+1429386386 d:\cbsampleprjs\prgcpp\testwinguiapp3\sqlite3.h
+	<stdarg.h>
+
+1647322044 source:d:\cbsampleprjs\prgcpp\testwinguiapp4\main.cpp
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<commctrl.h>
+	"resource.h"
+	"main.h"
+	"sqlite3.h"
+
+1647385349 d:\cbsampleprjs\prgcpp\testwinguiapp4\resource.h
+
+1646922503 d:\cbsampleprjs\prgcpp\testwinguiapp4\main.h
+	<windows.h>
+	"sqlite3.h"
+
+1429386386 d:\cbsampleprjs\prgcpp\testwinguiapp4\sqlite3.h
+	<stdarg.h>
+
+1647385515 source:d:\cbsampleprjs\prgcpp\testwinguiapp4\resource.rc
+	"resource.h"
+
+1647465792 source:d:\cbsampleprjs\prgcpp\testwinguiapp5\dblistview.cpp
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+	"DbListView.h"
+
+1647659321 d:\cbsampleprjs\prgcpp\testwinguiapp5\resource.h
+
+1647457986 d:\cbsampleprjs\prgcpp\testwinguiapp5\dblistview.h
+
+1647662682 source:d:\cbsampleprjs\prgcpp\testwinguiapp5\main.cpp
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<commctrl.h>
+	"resource.h"
+	"main.h"
+	"DbListView.h"
+	"MainWindowControls.h"
+	"MsgLogListView.h"
+	"SQLiteOperations.h"
+	"sqlite3.h"
+
+1647661360 d:\cbsampleprjs\prgcpp\testwinguiapp5\main.h
+	<windows.h>
+	"sqlite3.h"
+
+1429386386 d:\cbsampleprjs\prgcpp\testwinguiapp5\sqlite3.h
+	<stdarg.h>
+
+1647650668 source:d:\cbsampleprjs\prgcpp\testwinguiapp5\resource.rc
+	"resource.h"
+
+1647661360 d:\cbsampleprjs\prgcpp\testwinguiapp5\mainwindowcontrols.h
+
+1647468700 d:\cbsampleprjs\prgcpp\testwinguiapp5\msgloglistview.h
+
+1647661484 source:d:\cbsampleprjs\prgcpp\testwinguiapp5\mainwindowcontrols.cpp
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+	"MainWindowControls.h"
+
+1647472177 source:d:\cbsampleprjs\prgcpp\testwinguiapp5\msgloglistview.cpp
+	<stdio.h>
+	<windows.h>
+	<commctrl.h>
+	"MsgLogListView.h"
+
+1647632246 d:\cbsampleprjs\prgcpp\testwinguiapp5\sqliteoperations.h
+	"sqlite3.h"
+
+1647631701 source:d:\cbsampleprjs\prgcpp\testwinguiapp5\sqliteoperations.cpp
+	<windows.h>
+	<stdio.h>
+	"SQLiteOperations.h"
+	"sqlite3.h"
+
+1647465792 source:d:\prj\simplewinguisqlite\dblistview.cpp
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+	"DbListView.h"
+
+1647659321 d:\prj\simplewinguisqlite\resource.h
+
+1647457986 d:\prj\simplewinguisqlite\dblistview.h
+
+1647662879 source:d:\prj\simplewinguisqlite\main.cpp
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<commctrl.h>
+	"resource.h"
+	"main.h"
+	"DbListView.h"
+	"MainWindowControls.h"
+	"MsgLogListView.h"
+	"SQLiteOperations.h"
+	"sqlite3.h"
+
+1647661360 d:\prj\simplewinguisqlite\main.h
+	<windows.h>
+	"sqlite3.h"
+
+1429386386 d:\prj\simplewinguisqlite\sqlite3.h
+	<stdarg.h>
+
+1647661360 d:\prj\simplewinguisqlite\mainwindowcontrols.h
+
+1647468700 d:\prj\simplewinguisqlite\msgloglistview.h
+
+1647632246 d:\prj\simplewinguisqlite\sqliteoperations.h
+	"sqlite3.h"
+
+1647661484 source:d:\prj\simplewinguisqlite\mainwindowcontrols.cpp
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+	"MainWindowControls.h"
+
+1647472177 source:d:\prj\simplewinguisqlite\msgloglistview.cpp
+	<stdio.h>
+	<windows.h>
+	<commctrl.h>
+	"MsgLogListView.h"
+
+1647650668 source:d:\prj\simplewinguisqlite\resource.rc
+	"resource.h"
+
+1647631701 source:d:\prj\simplewinguisqlite\sqliteoperations.cpp
+	<windows.h>
+	<stdio.h>
+	"SQLiteOperations.h"
+	"sqlite3.h"
+
