@@ -217,10 +217,19 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                     EnableMenuItem(hSubMenuDb, (UINT)  ID_QUERRY_DB,  MF_DISABLED);
                     EnableMenuItem(hSubMenuDb, (UINT)  ID_CLOSE_DB,  MF_DISABLED);
                   break;
+                case ID_ADDSUPPLIER_DB:
+
+                // !!!  Smile Please ...: With intention, it is EMPTTTY : You can do it :)   !!!
+
+                //Check table columns for SUPLIERS table and  set related szSql query atatment then Query it. Adopt following two lines!
+                //sprintf(szSqlQuery,"%s","INSERT INTO MATERIALDEFS VALUES( 'GYM13278', 'QTY','NIKE AIR SPORT 0287445',1780,6,15 )");
+                // rc = SQLiteDbQuery();
+
+                break;
                case ID_ADDMATERIAL_DB:
-                     sprintf(szSqlQuery,"%s","INSERT INTO MATERIALDEFS VALUES( 'GYM13272', 'ADT','ADIDAS SPAIR 027346',1380,6,15 )");
+                     sprintf(szSqlQuery,"%s","INSERT INTO MATERIALDEFS VALUES( 'GYM13278', 'QTY','NIKE AIR SPORT 0287445',1780,6,15 )");
                   //   sprintf(szSqlQuery,"CREATE TABLE t(x INTEGER, y CHAR(30) UNIQUE NOT NULL , z INTEGER  NOT NULL, PRIMARY KEY(x DESC))");
-                 //   rc = sqlite3_exec(db, szSqlQuery, NULL, NULL, &zErrMsg);
+                   rc = SQLiteDbQuery();
 
                     if (rc != SQLITE_OK){
                         sprintf(szCharEventMsg,"SQL Query has beend applied. Error: %s : SQL Query:%s",zErrMsg, szSqlQuery);
